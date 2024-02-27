@@ -9,11 +9,11 @@ n = 7000
 h = 20
 
 for i in range(200): 
-    c = colorsys.hsv_to_rgb(h / 360, 1, 0.8)  
+    c = colorsys.hsv_to_rgb(h / 360, 1, 0.9)  
     t.color(c)
     t.left(2)
     t.fd(22)
-    for j in range(1):
+    for j in range(4):
         t.left(50)
         t.circle(170)
 
